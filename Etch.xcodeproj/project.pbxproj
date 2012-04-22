@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7A83C6154492BE00E2D682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7A83C5154492BE00E2D682 /* UIKit.framework */; };
+		6C7A83C8154492BE00E2D682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7A83C7154492BE00E2D682 /* Foundation.framework */; };
+		6C7A83CA154492BE00E2D682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7A83C9154492BE00E2D682 /* CoreGraphics.framework */; };
+		6C7A83D0154492BE00E2D682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83CE154492BE00E2D682 /* InfoPlist.strings */; };
+		6C7A83D2154492BE00E2D682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A83D1154492BE00E2D682 /* main.m */; };
+		6C7A83D6154492BE00E2D682 /* EtchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A83D5154492BE00E2D682 /* EtchAppDelegate.m */; };
+		6C7A83DE154492D800E2D682 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A83DD154492D800E2D682 /* View.m */; };
+		6C7A83E41544A00900E2D682 /* eraser_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83E31544A00900E2D682 /* eraser_sm.png */; };
+		6C7A83E71544A37400E2D682 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83E51544A37400E2D682 /* Icon@2x.png */; };
+		6C7A83E81544A37400E2D682 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83E61544A37400E2D682 /* Icon.png */; };
+		6C7A83F41544A86600E2D682 /* logo_etchASketch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83F31544A86600E2D682 /* logo_etchASketch.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C7A83C1154492BE00E2D682 /* Etch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7A83C5154492BE00E2D682 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C7A83C7154492BE00E2D682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C7A83C9154492BE00E2D682 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C7A83CD154492BE00E2D682 /* Etch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Etch-Info.plist"; sourceTree = "<group>"; };
+		6C7A83CF154492BE00E2D682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C7A83D1154492BE00E2D682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C7A83D3154492BE00E2D682 /* Etch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Etch-Prefix.pch"; sourceTree = "<group>"; };
+		6C7A83D4154492BE00E2D682 /* EtchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtchAppDelegate.h; sourceTree = "<group>"; };
+		6C7A83D5154492BE00E2D682 /* EtchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtchAppDelegate.m; sourceTree = "<group>"; };
+		6C7A83DC154492D800E2D682 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		6C7A83DD154492D800E2D682 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		6C7A83E31544A00900E2D682 /* eraser_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser_sm.png; sourceTree = "<group>"; };
+		6C7A83E51544A37400E2D682 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6C7A83E61544A37400E2D682 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6C7A83F31544A86600E2D682 /* logo_etchASketch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_etchASketch.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7A83BE154492BE00E2D682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A83C6154492BE00E2D682 /* UIKit.framework in Frameworks */,
+				6C7A83C8154492BE00E2D682 /* Foundation.framework in Frameworks */,
+				6C7A83CA154492BE00E2D682 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7A83B6154492BE00E2D682 = {
+			isa = PBXGroup;
+			children = (
+				6C7A83CB154492BE00E2D682 /* Etch */,
+				6C7A83C4154492BE00E2D682 /* Frameworks */,
+				6C7A83C2154492BE00E2D682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7A83C2154492BE00E2D682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A83C1154492BE00E2D682 /* Etch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7A83C4154492BE00E2D682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A83C5154492BE00E2D682 /* UIKit.framework */,
+				6C7A83C7154492BE00E2D682 /* Foundation.framework */,
+				6C7A83C9154492BE00E2D682 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7A83CB154492BE00E2D682 /* Etch */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A83D4154492BE00E2D682 /* EtchAppDelegate.h */,
+				6C7A83D5154492BE00E2D682 /* EtchAppDelegate.m */,
+				6C7A83DC154492D800E2D682 /* View.h */,
+				6C7A83DD154492D800E2D682 /* View.m */,
+				6C7A83CC154492BE00E2D682 /* Supporting Files */,
+			);
+			path = Etch;
+			sourceTree = "<group>";
+		};
+		6C7A83CC154492BE00E2D682 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A83F31544A86600E2D682 /* logo_etchASketch.png */,
+				6C7A83E51544A37400E2D682 /* Icon@2x.png */,
+				6C7A83E61544A37400E2D682 /* Icon.png */,
+				6C7A83E31544A00900E2D682 /* eraser_sm.png */,
+				6C7A83CD154492BE00E2D682 /* Etch-Info.plist */,
+				6C7A83CE154492BE00E2D682 /* InfoPlist.strings */,
+				6C7A83D1154492BE00E2D682 /* main.m */,
+				6C7A83D3154492BE00E2D682 /* Etch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7A83C0154492BE00E2D682 /* Etch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7A83D9154492BE00E2D682 /* Build configuration list for PBXNativeTarget "Etch" */;
+			buildPhases = (
+				6C7A83BD154492BE00E2D682 /* Sources */,
+				6C7A83BE154492BE00E2D682 /* Frameworks */,
+				6C7A83BF154492BE00E2D682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etch;
+			productName = Etch;
+			productReference = 6C7A83C1154492BE00E2D682 /* Etch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7A83B8154492BE00E2D682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Etch;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "rudypospisil@gmail.com";
+			};
+			buildConfigurationList = 6C7A83BB154492BE00E2D682 /* Build configuration list for PBXProject "Etch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C7A83B6154492BE00E2D682;
+			productRefGroup = 6C7A83C2154492BE00E2D682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7A83C0154492BE00E2D682 /* Etch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7A83BF154492BE00E2D682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A83D0154492BE00E2D682 /* InfoPlist.strings in Resources */,
+				6C7A83E41544A00900E2D682 /* eraser_sm.png in Resources */,
+				6C7A83E71544A37400E2D682 /* Icon@2x.png in Resources */,
+				6C7A83E81544A37400E2D682 /* Icon.png in Resources */,
+				6C7A83F41544A86600E2D682 /* logo_etchASketch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7A83BD154492BE00E2D682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A83D2154492BE00E2D682 /* main.m in Sources */,
+				6C7A83D6154492BE00E2D682 /* EtchAppDelegate.m in Sources */,
+				6C7A83DE154492D800E2D682 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C7A83CE154492BE00E2D682 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7A83CF154492BE00E2D682 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7A83D7154492BE00E2D682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6C7A83D8154492BE00E2D682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C7A83DA154492BE00E2D682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Etch/Etch-Prefix.pch";
+				INFOPLIST_FILE = "Etch/Etch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C7A83DB154492BE00E2D682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Etch/Etch-Prefix.pch";
+				INFOPLIST_FILE = "Etch/Etch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7A83BB154492BE00E2D682 /* Build configuration list for PBXProject "Etch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7A83D7154492BE00E2D682 /* Debug */,
+				6C7A83D8154492BE00E2D682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7A83D9154492BE00E2D682 /* Build configuration list for PBXNativeTarget "Etch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7A83DA154492BE00E2D682 /* Debug */,
+				6C7A83DB154492BE00E2D682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7A83B8154492BE00E2D682 /* Project object */;
+}
